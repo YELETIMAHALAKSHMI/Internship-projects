@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+body{
+    background-color: lavenderblush;
+}
+.calculator{
+    font-size: xx-large;
+    padding: 10px;
+    background-color: #3d4543;    
+    height: 400px;    
+    width: 370px;    
+    border-radius: 10px;    
+    position: relative;    
+    top: 40px;    
+    left: 35%;  
+}
+.displayresult{
+    font-family: 'Crimson+Pro', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: 65%;
+}
+#btn{
+    background-color: goldenrod;
+    border: none;
+}
+.graybutton{
+    font-family: 'Crimson+Pro', sans-serif;
+    background-color: gray;
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    height: 70%;
+    outline: none;
+}
+.maroonbutton{
+    font-family: 'Cookie', sans-serif;
+    background-color: maroon;
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    height: 70%;
+    outline: none;
+}
+.goldbutton{
+    font-family: 'Cookie', sans-serif;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    height: 70%;
+    outline: none;
+}
+.deletebutton{
+    font-family: 'Cookie', sans-serif;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    height: 70%;
+    outline: none;
+}
+.graybutton:active    
+{    
+border-top: white 2px solid;    
+border-bottom:#303030 2px solid;    
+}    
+.goldbutton:active    
+{    
+border-top:white 2px solid;    
+border-bottom:#303030 2px solid;    
+}    
+.maroonbutton:active    
+{    
+border-top: white 2px solid;    
+border-bottom: #303030 2px solid;    
+}    
+
